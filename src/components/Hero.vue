@@ -51,10 +51,9 @@ export default {
 
 <style scoped>
 .hero {
-  @apply h-screen;
+  @apply h-screen bg-shield-black;
   min-height: 42rem;
   max-height: 60rem;
-  background-color: #0F0F0E;
 }
 
 .hero-fragment {
