@@ -5,49 +5,49 @@
 @layer base {
     @font-face {
         font-family: Maison Neue;
-        src: url("~@/assets/fonts/MaisonNeue-Book.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeue-Book.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue;
         font-weight: 500;
-        src: url("~@/assets/fonts/MaisonNeue-Medium.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeue-Medium.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue;
         font-weight: 600;
-        src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue;
         font-weight: 600;
         font-style: italic, oblique;
-        src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue;
         font-weight: 700;
-        src: url("~@/assets/fonts/MaisonNeue-Bold.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeue-Bold.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue Extended;
         font-weight: 700;
-        src: url("~@/assets/fonts/MaisonNeueExtended-Bold.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeueExtended-Bold.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue Extended;
         font-weight: 800;
-        src: url("~@/assets/fonts/MaisonNeueExtended-ExtraBold.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeueExtended-ExtraBold.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue Extended;
         font-weight: 900;
-        src: url("~@/assets/fonts/MaisonNeueExtended-Black.otf") format("font-opentype");
+        src: url("~@/assets/fonts/MaisonNeueExtended-Black.otf") format("opentype");
     }
 }
