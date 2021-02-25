@@ -5,7 +5,9 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Maison Neue", "sans-serif"]
+    },
   },
   variants: {
     extend: {},
