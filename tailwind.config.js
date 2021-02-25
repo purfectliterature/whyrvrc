@@ -5,9 +5,16 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      sans: ["Maison Neue", "sans-serif"]
+    extend: {
+      backgroundImage: theme => ({
+        "hero": "url('./assets/images/hero.jpg')"
+      })
     },
+    // add Apple's system font and Segoe UI here
+    fontFamily: {
+      sans: ["Maison Neue", "sans-serif"],
+      extended: ["Maison Neue Extended", "sans-serif"]
+    }
   },
   variants: {
     extend: {},

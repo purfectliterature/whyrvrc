@@ -50,4 +50,8 @@
         font-weight: 900;
         src: url("~@/assets/fonts/MaisonNeueExtended-Black.otf") format("opentype");
     }
+
+    h1 {
+        @apply text-5xl;
+    }
 }
