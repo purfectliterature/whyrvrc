@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style scoped>
-@media (min-width: 1345px) {
+@media (min-width: 768px) {
   .gradient {
     background: linear-gradient(to bottom, transparent, #0F0F0E);
   }
