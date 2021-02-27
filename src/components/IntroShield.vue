@@ -38,7 +38,7 @@ export default {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         ),
 
-        new Paragraph("else",
+        new Paragraph("else2",
           "We will never gonna give you up, let you down, run around and desert you, make you cry, or say goodbye.",
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         )
