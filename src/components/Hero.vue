@@ -63,7 +63,7 @@ export default {
 .hero-image {
   @apply bg-no-repeat bg-cover;
   height: 70%;
-  background-position: 80% 50%;
+  background-position: 60% 50%;
 }
 
 @media (min-width: 768px) {
