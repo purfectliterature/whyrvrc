@@ -8,8 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-observe-visibility": "^1.0.0",
     "vue-unicons": "^2.3.0"
   },
   "devDependencies": {

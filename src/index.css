@@ -55,6 +55,10 @@
         @apply text-5xl;
     }
 
+    h2 {
+        @apply text-4xl;
+    }
+
     h3 {
         @apply text-2xl;
     }
