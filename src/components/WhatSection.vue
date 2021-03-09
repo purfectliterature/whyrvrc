@@ -27,7 +27,7 @@ export default {
 }
 
 #scrolling p {
-  animation: sliding 1.5s linear infinite;
+  animation: sliding 2s linear infinite;
 }
 
 @keyframes sliding {
