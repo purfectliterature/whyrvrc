@@ -30,11 +30,11 @@
           class="lg:rounded-xl"
           srcset="
             @/assets/images/map.jpg 2764w,
-            @/assets/images/map-portrait.jpg 901w
+            @/assets/images/map-portrait.jpg 650w
           "
           sizes="
-            (min-width: 901px) 2764w,
-            (max-width: 900px) 901w
+            (min-width: 1024px) 2764w,
+            (max-width: 1023px) 650w
           "
         >
 
@@ -43,11 +43,11 @@
           class="absolute top-0 w-full"
           srcset="
             @/assets/images/map-overlay.svg 2764w,
-            @/assets/images/map-overlay-portrait.svg 901w
+            @/assets/images/map-overlay-portrait.svg 650w
           "
           sizes="
-            (min-width: 901px) 2764w,
-            (max-width: 900px) 901w
+            (min-width: 1024px) 2764w,
+            (max-width: 1023px) 650w
           "
         >
       </div>
