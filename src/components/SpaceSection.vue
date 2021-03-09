@@ -1,18 +1,18 @@
 <template>
-  <section id="space-bg" class="text-center px-4 py-16 space-y-16 text-white bg-black bg-space bg-no-repeat bg-center bg-cover">
-    <div class="space-y-2">
-      <h2 class="font-bold">The college with the</h2>
-      <div v-observe-visibility="spaceWordVisible" class="font-extended font-black text-7xl flex flex-row justify-center">
+  <section id="space-bg" class="text-center px-4 py-16 lg:py-32 space-y-16 2xl:space-y-32 text-white bg-black bg-space bg-no-repeat bg-center bg-cover flex flex-col items-center">
+    <div class="w-full flex flex-col items-center" id="space-shade">
+      <h2 class="font-bold mb-1">The college with the</h2>
+      <div v-observe-visibility="spaceWordVisible" class="space-container font-extended font-black text-7xl lg:text-8xl 2xl:text-9xl flex flex-row justify-center w-full">
         <span id="space-word">s</span>
         <span id="space-word">p</span>
         <span id="space-word">a</span>
         <span id="space-word">c</span>
         <span id="space-word">e</span>
       </div>
-      <h2 class="font-bold">to unleash your true potential.</h2>
+      <h2 class="font-bold mt-5">to unleash your true potential.</h2>
     </div>
 
-    <p class="text-lg">
+    <p class="text-lg space-description">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
 
@@ -50,5 +50,21 @@ export default {
 </script>
 
 <style scoped>
+.space-container {
+  max-width: 700px;
+}
 
+.space-description {
+  max-width: 500px;
+}
+
+@media (min-width: 1536px) {
+  .space-container {
+    max-width: 1000px;
+  }
+
+  .space-description {
+    max-width: 700px;
+  }
+}
 </style>
