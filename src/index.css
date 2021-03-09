@@ -16,14 +16,14 @@
 
     @font-face {
         font-family: Maison Neue;
-        font-weight: 600;
-        src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("opentype");
+        font-weight: 500;
+        font-style: italic, oblique;
+        src: url("~@/assets/fonts/MaisonNeue-MediumItalic.otf") format("opentype");
     }
 
     @font-face {
         font-family: Maison Neue;
         font-weight: 600;
-        font-style: italic, oblique;
         src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("opentype");
     }
 
