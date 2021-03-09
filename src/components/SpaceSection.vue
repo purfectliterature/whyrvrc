@@ -2,7 +2,7 @@
   <section id="space-bg" class="bg-space bg-no-repeat bg-center bg-cover">
     <div id="space-shade" class="w-full h-full text-center px-4 py-16 lg:py-32 space-y-16 2xl:space-y-32 text-white flex flex-col items-center">
       <div class="w-full flex flex-col items-center">
-        <h2 class="font-bold mb-1">The college with the</h2>
+        <h2 class="mb-1">The college with the</h2>
         <div v-observe-visibility="spaceWordVisible" class="space-container font-extended font-black text-7xl lg:text-8xl 2xl:text-9xl flex flex-row justify-center w-full">
           <span id="space-word">s</span>
           <span id="space-word">p</span>
@@ -10,7 +10,7 @@
           <span id="space-word">c</span>
           <span id="space-word">e</span>
         </div>
-        <h2 class="font-bold mt-5">to unleash your true potential.</h2>
+        <h2 class="mt-5">to unleash your true potential.</h2>
       </div>
 
       <p class="text-lg space-description">
