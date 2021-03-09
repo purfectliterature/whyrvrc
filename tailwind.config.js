@@ -9,13 +9,15 @@ module.exports = {
       backgroundImage: theme => ({
         "hero": "url('./assets/images/hero.jpg')",
         "shield": "url('./assets/images/shield.jpg')",
-        "space": "url('./assets/images/space.jpg')"
+        "space": "url('./assets/images/space.jpg')",
+        "zig": "url('./assets/images/zig.svg')"
       }),
 
       colors: {
         "shield-black": "#0F0F0E",
         "rvrc-purple": "#532C6D",
-        "rvrc-yellow": "#FFCB04"
+        "rvrc-yellow": "#FFCB04",
+        "memory-gray": "#333333"
       }
     },
     // TODO: add Apple's system font and Segoe UI here

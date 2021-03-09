@@ -4,6 +4,7 @@
     <intro-shield />
     <space-section />
     <heart-section />
+    <what-section />
     <div class="bg-blue-700 h-60"></div>
   </div>
 </template>
@@ -13,9 +14,10 @@ import Hero from '@/components/Hero.vue';
 import IntroShield from '@/components/IntroShield.vue';
 import SpaceSection from '@/components/SpaceSection.vue';
 import HeartSection from '@/components/HeartSection.vue';
+import WhatSection from '@/components/WhatSection.vue';
 
 export default {
   name: "HomePage",
-  components: { Hero, IntroShield, SpaceSection, HeartSection }
+  components: { Hero, IntroShield, SpaceSection, HeartSection, WhatSection }
 }
 </script>
