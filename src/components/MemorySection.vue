@@ -1,33 +1,4 @@
 <template>
-  <!-- <section class="bg-memory-gray pt-16 text-white flex flex-col items-center">
-    <div class="memory-content">
-      <div class="relative flex flex-col">
-        <div class="relative z-10 px-4 sm:px-8 lg:px-16">
-          <h2 class="text-gray-300">These people are</h2>
-          <p class="font-extended font-bold text-5xl">playing in RVRC's annual concert.</p>
-        </div>
-
-        <aspect-ratio-image w="3" h="2" src="memory-jukebox.jpg" alt="Jukebox" fitting="cover" classes="
-          z-0 w-full mt-8 md:-mt-4 md:w-10/12 md:self-end
-        " />
-      </div>
-
-      <div class="px-4 py-4 sm:px-8 flex flex-col md:flex-row-reverse lg:pr-16 lg:ml-20">
-        <div class="px-5 flex flex-row justify-center md:flex-col md:pr-0">
-          <unicon name="image-v" fill="white" width="1.5rem" height="1.5rem" />
-          <p class="memory-description font-medium text-sm leading-snug ml-3 md:ml-0 md:mt-1">
-            <span>Anything is Fine</span> performing in <span>Concert by the Ridge</span> in 2018 and having very much fun.
-          </p>
-        </div>
-
-        <p class="memory-description mt-8 text-lg md:mt-0 md:mr-8">
-          <span>Jukebox</span> is RVRC’s music performance interest group, recognised around NUS for their lorem ipsum vibrant 
-          holistic words insert here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </div>
-  </section> -->
   <section class="bg-gradient-to-b from-memory-gray to-memory-black">
     <memory-list-item imageUrl="memory-jukebox.jpg" imageAlt="Jukebox">
       <template v-slot:pre-caption>These people are</template>
