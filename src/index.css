@@ -17,7 +17,7 @@
     @font-face {
         font-family: Maison Neue;
         font-weight: 500;
-        font-style: italic, oblique;
+        font-style: italic;
         src: url("~@/assets/fonts/MaisonNeue-MediumItalic.otf") format("opentype");
     }
 
