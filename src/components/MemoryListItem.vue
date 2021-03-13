@@ -3,7 +3,7 @@
     <div class="memory-content">
       <div :class="`relative flex flex-col ${!right ? 'items-start' : 'items-end'}`">
         <div :class="`
-          relative z-10 px-4 sm:px-8
+          relative z-10 px-4 sm:px-8 lg:w-10/12
           ${!right ?
             'md:pr-32 lg:pl-16' : 
             'md:pl-32 lg:pr-16 xl:pr-32'
@@ -12,7 +12,7 @@
           <h2 class="text-memory-light-gray">
             <slot name="pre-caption"></slot>
           </h2>
-          <p class="font-extended font-bold text-5xl">
+          <p class="font-extended font-bold text-5xl lg:text-6xl">
             <slot name="caption"></slot>
           </p>
         </div>
