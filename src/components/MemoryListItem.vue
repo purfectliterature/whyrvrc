@@ -18,7 +18,7 @@
         </div>
 
         <aspect-ratio-image w="3" h="2" :src="imageUrl" :alt="imageAlt" fitting="cover" :classes="`
-          z-0 w-full mt-8 md:-mt-4 md:w-10/12 ${!right ? 'md:self-end' : 'md:self-start'} 
+          z-0 w-full mt-8 md:-mt-4 md:w-10/12 md:shadow-2xl ${!right ? 'md:self-end' : 'md:self-start'} 
         `" />
       </div>
 
