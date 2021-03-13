@@ -17,7 +17,8 @@ module.exports = {
         "shield-black": "#0F0F0E",
         "rvrc-purple": "#532C6D",
         "rvrc-yellow": "#FFCB04",
-        "memory-gray": "#333333"
+        "memory-gray": "#333333",
+        "memory-black": "#050507"
       }
     },
     // TODO: add Apple's system font and Segoe UI here
