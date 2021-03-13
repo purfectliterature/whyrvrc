@@ -9,7 +9,7 @@
             'md:pl-32 lg:pr-16 xl:pr-32'
           }
         `">
-          <h2 class="text-gray-300">
+          <h2 class="text-memory-light-gray">
             <slot name="pre-caption"></slot>
           </h2>
           <p class="font-extended font-bold text-5xl">
@@ -30,8 +30,8 @@
         }
       `">
         <div :class="`px-5 flex flex-row justify-center md:flex-col md:justify-start md:w-4/5 ${!right ? 'md:pr-0' : 'md:pl-0'}`">
-          <unicon name="image-v" fill="white" width="1.5rem" height="1.5rem" />
-          <p class="memory-description font-medium text-sm leading-snug ml-3 md:ml-0 md:mt-1">
+          <unicon name="image-v" fill="#BDBDBD" width="1.5rem" height="1.5rem" />
+          <p class="memory-description text-memory-light-gray font-medium text-sm leading-snug ml-3 md:ml-0 md:mt-1">
             <slot name="image-description"></slot>
           </p>
         </div>

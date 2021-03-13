@@ -18,7 +18,8 @@ module.exports = {
         "rvrc-purple": "#532C6D",
         "rvrc-yellow": "#FFCB04",
         "memory-gray": "#333333",
-        "memory-black": "#050507"
+        "memory-black": "#050507",
+        "memory-light-gray": "#BDBDBD"
       }
     },
     // TODO: add Apple's system font and Segoe UI here
