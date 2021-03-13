@@ -7,6 +7,7 @@
     <what-section />
     <memory-section />
     <this-year-section />
+    <cta-section />
     <div class="bg-blue-700 h-60"></div>
   </div>
 </template>
@@ -19,6 +20,7 @@ import HeartSection from '@/components/HeartSection.vue';
 import WhatSection from '@/components/WhatSection.vue';
 import MemorySection from '@/components/MemorySection.vue';
 import ThisYearSection from '@/components/ThisYearSection.vue';
+import CtaSection from '@/components/CtaSection.vue';
 
 export default {
   name: "HomePage",
@@ -29,7 +31,8 @@ export default {
     HeartSection,
     WhatSection,
     MemorySection,
-    ThisYearSection
+    ThisYearSection,
+    CtaSection
   }
 }
 </script>,
