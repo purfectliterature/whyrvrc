@@ -7,7 +7,7 @@
     ">
       <div class="space-y-1">
         <h2>Even when life gets hard,</h2>
-        <p class="font-extended font-extrabold text-7xl">we'll overcome together.</p>
+        <p class="font-extended font-extrabold text-7xl lg:text-8xl">we'll overcome together.</p>
       </div>
 
       <p class="text-lg this-year-description">

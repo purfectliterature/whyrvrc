@@ -2,7 +2,7 @@
   <section class="bg-gray-100 h-screen flex flex-col">
     <div class="space-y-1 text-rvrc-purple text-center h-full flex flex-col justify-center sm:px-8 md:px-16 lg:px-32">
       <h2>But, seriously</h2>
-      <p class="font-extended font-extrabold text-7xl">what can you be?</p>
+      <p class="font-extended font-extrabold text-7xl lg:text-8xl">what can you be?</p>
     </div>
     <div class="flex flex-row justify-center tracking-wider font-semibold uppercase text-memory-gray text-center pb-8">
       <p>Continue </p>

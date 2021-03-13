@@ -13,7 +13,7 @@
       ">
         <div class="space-y-1">
           <h2>Right in the</h2>
-          <p class="font-extended font-extrabold text-7xl">heart of NUS.</p>
+          <p class="font-extended font-extrabold text-7xl lg:text-8xl">heart of NUS.</p>
           <p class="font-medium italic text-2xl">No, literally.</p>
         </div>
         
