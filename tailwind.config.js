@@ -10,7 +10,8 @@ module.exports = {
         "hero": "url('./assets/images/hero.jpg')",
         "shield": "url('./assets/images/shield.jpg')",
         "space": "url('./assets/images/space.jpg')",
-        "zig": "url('./assets/images/zig.svg')"
+        "zig": "url('./assets/images/zig.svg')",
+        "your-frame": "url('./assets/images/your-frame.jpg')"
       }),
 
       colors: {
@@ -19,7 +20,9 @@ module.exports = {
         "rvrc-yellow": "#FFCB04",
         "memory-gray": "#333333",
         "memory-black": "#050507",
-        "memory-light-gray": "#BDBDBD"
+        "memory-light-gray": "#BDBDBD",
+        "frame-gray": "#C2C2C2",
+        "frame-gray-end": "#A0A0A0"
       }
     },
     // TODO: add Apple's system font and Segoe UI here
