@@ -18,9 +18,12 @@
         </div>
         
         <p class="text-lg">
-          RVRC is situated at whatever valley, allowing you to access to essential facilities, amenities, and your 
-          classes right within walking distance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          RVRC’s strategic location at the heart-centre of the University allows students quick 
+          and easy access to lecture theatres and faculty classes, as well as amenities, such as 
+          the University Sports Centre, University Health Centre, and University Hall. RVRC is 
+          interconnected with Yusof Ishak House and University Hall, which brings the popular 
+          Central Square food court, 7-Eleven, PitStop@YIH recreational centre, Central Library, 
+          Faculty of Engineering, and Faculty of Science, all well within walking distance.
         </p>
       </div>
 
