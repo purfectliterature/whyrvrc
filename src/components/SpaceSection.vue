@@ -14,7 +14,9 @@
       </div>
 
       <p class="text-lg space-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        RVRC is the <b>largest residential college</b> at NUS. The visually distinct brick-clad interconnected buildings span along the Kent Ridge and nestled 
+        against the lush backdrop of the Kent Ridge Forest. Unlike the typically dense urban Singaporean setting, RVRC is landscaped with open courtyards, 
+        heritage trees, open grills, and culture gardens. It is really the college with the space to unleash your true potential.
       </p>
 
       <button>
