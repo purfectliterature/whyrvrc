@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-row justify-center bg-shield-black">
-    <section class="shield-intro w-full h-full bg-shield text-white relative">
+    <section class="shield-intro w-full h-full bg-shield text-white relative space-y-4">
       <text-section v-for="para in paragraphs" :key="para.id" :heading="para.heading" :paragraph="para.paragraph" />
     </section>
   </section>
@@ -25,22 +25,17 @@ export default {
       paragraphs: [
         new Paragraph("about",
           "Ridge View Residential College is a flagship residential college at the National University of Singapore.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          "RVRC is the largest residential college at NUS, housing diverse students from a plethora of academic disciplines, all together in the Ridge View Residential College Programme."
         ),
 
-        new Paragraph("location",
-          "Situated at the heart of NUS, RVRC is home to the many lorem ipsum dolor sit amet.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        new Paragraph("programme",
+          "The RVRC experience prepares you for life in university, during and beyond.",
+          "The RVRC programme is two-year experiential learning residency with an integrated inter-disciplinary approach in sustaibility and communication, designed to cultivate students’ holistic development to embrace life in and beyond university and the workplace. "
         ),
 
-        new Paragraph("else",
-          "We will never gonna give you up, let you down, run around and desert you, make you cry, or say goodbye.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        ),
-
-        new Paragraph("else2",
-          "We will never gonna give you up, let you down, run around and desert you, make you cry, or say goodbye.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        new Paragraph("potential",
+          "Find the potential to be what your heart desires to be, within a diverse and engaging community.",
+          "The integration between living and learning at RVRC allows you to immerse in an engaging, diverse community where you have every space to express and hone your interests with like-minded people. RVRC is truly more than a residential college, it is a potential."
         )
       ]
     };
