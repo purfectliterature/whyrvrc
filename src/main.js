@@ -21,6 +21,8 @@ import {
 import { ObserveVisibility } from "vue-observe-visibility";
 import { tiktokIcon } from "@/customIcons";
 
+import VueGtag from "vue-gtag";
+
 Unicon.add([
   uniMouseAlt,
   uniAngleDown,
@@ -39,6 +41,10 @@ Unicon.add([
 ]);
 Vue.use(Unicon);
 Vue.directive("observe-visibility", ObserveVisibility);
+
+Vue.use(VueGtag, {
+  config: { id: "G-CVS3HMG97W" }
+});
 
 Vue.config.productionTip = false;
 
