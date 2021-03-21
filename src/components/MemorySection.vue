@@ -33,7 +33,7 @@
         strategic learning outcomes beyond the classroom.<br><br>
         
         The RVRC's annual <span>International Coastal Cleanup, Singapore (ICCS)</span>, organised in conjunction with the 
-        <a href="https://oceanconservancy.org/trash-free-seas/international-coastal-cleanup/">
+        <a href="https://oceanconservancy.org/trash-free-seas/international-coastal-cleanup/" rel="noreferrer noopener" target="_blank">
           Ocean Concervancy's International Coastal Cleanup
         </a> allows you to witness firsthand the challenges and impact of our marine debris, and the opportunity
         to make a direct difference to the cause.<br><br>
