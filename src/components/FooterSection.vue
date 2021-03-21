@@ -14,7 +14,7 @@
           </div>
         </footer-section-item>
 
-        <footer-section-item title="Quick links">
+        <footer-section-item title="Useful links">
           <a v-for="link in quickLinks" :key="link.href" :href="link.href" rel="noreferrer noopener" target="_blank" class="
             text-white font-semibold text-lg flex flex-row items-center
           ">
@@ -113,8 +113,12 @@ export default {
   data() {
     return {
       quickLinks: [
+        new Link("https://rvrc.nus.edu.sg/admissions/application-process/", "Official RVRCP admission process", true),
+        new Link("https://nus.edu.sg/osa/student-services/hostel-admission/undergraduate/application-guide", "On-campus housing application guide", true),
+        new Link("https://nus.edu.sg/osa/student-services/hostel-admission/undergraduate/hostel-meal-plan-rates", "Hostel and meal plan rates", true),
+        new Link("https://nus.edu.sg/osa/campus-living/residential-options/residential-colleges", "Residential colleges application dates", true),
         new Link("https://rvrc.nus.edu.sg", "Official RVRC website", true),
-        new Link("https://uci.nus.edu.sg/ohs/", "NUS Office of Housing Services", true)
+        new Link("https://uci.nus.edu.sg/ohs/", "NUS Office of Housing Services homepage", true)
       ],
       credits: [
         new Contributor("Phillmont Muktar", "Head", "Brand Identity Design, Software Engineering"),
