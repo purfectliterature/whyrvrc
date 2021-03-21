@@ -31,7 +31,7 @@
           at the ridge!
         </p>
         
-        <p-button href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" icon="arrow-right" :icon-color="yellow" childClasses="bg-rvrc-purple text-white">
+        <p-button @click.native="report" href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" icon="arrow-right" :icon-color="yellow" childClasses="bg-rvrc-purple text-white">
           Apply now
         </p-button>
       </div>
@@ -54,6 +54,11 @@ export default {
   data() {
     return {
       yellow: colours['rvrc-yellow']
+    }
+  },
+  methods: {
+    report() {
+      this.$gtag.event("apply");
     }
   }
 }
