@@ -67,11 +67,12 @@
         <div class="flex flex-col space-y-3 lg:flex-row lg:flex-wrap lg:justify-center lg:space-y-0">
           <div v-for="c in credits" :key="c.name" class="lg:py-4 lg:px-8 lg:text-center">
             <p class="font-extended">{{ c.name }}</p>
-            <p class="text-gray-500"><span class="font-semibold">{{ c.position }}</span><br> {{ c.department }}</p>
+            <p class="text-gray-400">{{ c.department }}</p>
           </div>
         </div>
 
-        <p>and the immense support from the talented people from RVRC Social Media team, Dance ReVo, the amazing college master, staff, and students.</p>
+        <p>and the immense support from the entirety of the RVRC Open Day 2021 committee, as well as the talented people from RVRC Social Media team, Dance ReVo, the amazing college master, staff, 
+        and students.</p>
       </div>
       
       <div class="py-8">
@@ -100,9 +101,8 @@ class Link {
 }
 
 class Contributor {
-  constructor(name, position, department) {
+  constructor(name, department) {
     this.name = name;
-    this.position = position;
     this.department = department;
   }
 }
@@ -121,11 +121,9 @@ export default {
         new Link("https://uci.nus.edu.sg/ohs/", "NUS Office of Housing Services homepage", true)
       ],
       credits: [
-        new Contributor("Phillmont Muktar", "Head", "Brand Identity Design, Software Engineering"),
-        new Contributor("Ernest Tock Jia En", "Co-chair", "RVRC Open Day 2021, Content Management"),
-        new Contributor("Lim Ting Yu Bernice", "Co-chair", "RVRC Open Day 2021, Content Management"),
-        new Contributor("Quek Ee Pin", "Lead Photographer", "Digital Photography, Content Management"),
-        new Contributor("Chong Cheng Yang, Lionel", "Lead", "Creative, Content Management")
+        new Contributor("Phillmont Muktar", "Brand Identity Design, Software Engineering, Content Management"),
+        new Contributor("Quek Ee Pin", "Digital Photography, Content Management"),
+        new Contributor("Chong Cheng Yang, Lionel", "Creative, Content Management")
       ]
     };
   }
