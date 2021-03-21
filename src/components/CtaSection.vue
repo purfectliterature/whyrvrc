@@ -30,8 +30,10 @@
           Scroll down to <i>Useful links</i> for more (very useful) resources with regards to admissions. We hope to see you 
           at the ridge!
         </p>
-
-        <button>Apply now</button>
+        
+        <a href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" rel="noreferrer noopener" target="_blank">
+          <button>Apply now</button>
+        </a>
       </div>
     </div>
 
