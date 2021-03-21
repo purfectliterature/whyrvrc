@@ -2,9 +2,9 @@
   <section class="text-rvrc-purple bg-frame-gray">
     <div class="bg-gradient-to-b from-gray-200 to-frame-gray w-full flex flex-col md:items-center">
       <div class="
-        cta-text relative z-10 flex flex-col text-rvrc-purple pt-16 px-4 space-y-8
+        cta-text z-10 flex flex-col text-rvrc-purple pt-16 px-4 space-y-8
         sm:px-8 md:px-16
-        md:text-center md:items-center
+        md:text-center md:items-center items-start
       ">
         <div class="space-y-1">
           <h2>Now it's your turn to</h2>
@@ -31,9 +31,9 @@
           at the ridge!
         </p>
         
-        <a href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" rel="noreferrer noopener" target="_blank">
-          <button>Apply now</button>
-        </a>
+        <p-button href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" icon="arrow-right" :icon-color="yellow" childClasses="bg-rvrc-purple text-white">
+          Apply now
+        </p-button>
       </div>
     </div>
 
@@ -44,8 +44,18 @@
 </template>
 
 <script>
+import PButton from "./PButton";
+import { theme } from "@/../tailwind.config";
+const colours = theme.extend.colors;
+
 export default {
-  name: "CtaSection"
+  name: "CtaSection",
+  components: { PButton },
+  data() {
+    return {
+      yellow: colours['rvrc-yellow']
+    }
+  }
 }
 </script>
 

@@ -15,7 +15,8 @@ import {
   uniMapPin,
   uniPhone,
   uniAt,
-  uniMap
+  uniMap,
+  uniArrowRight
 } from "vue-unicons/src/icons";
 import { ObserveVisibility } from "vue-observe-visibility";
 import { tiktokIcon } from "@/customIcons";
@@ -33,7 +34,8 @@ Unicon.add([
   uniMapPin,
   uniPhone,
   uniAt,
-  uniMap
+  uniMap,
+  uniArrowRight
 ]);
 Vue.use(Unicon);
 Vue.directive("observe-visibility", ObserveVisibility);

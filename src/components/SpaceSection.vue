@@ -19,19 +19,27 @@
         heritage trees, open grills, and culture gardens. It is really the college with the space to unleash your true potential.
       </p>
 
-      <a href="https://www.youtube.com/watch?v=I5srlwPX0Qc" rel="noreferrer noopener" target="_blank">
-        <button>Show me around</button>
-      </a>
+      <p-button href="https://www.youtube.com/watch?v=I5srlwPX0Qc" icon="arrow-right" :icon-color="yellow" childClasses="bg-white text-rvrc-purple">
+        Show me around
+      </p-button>
     </div>
   </section>
 </template>
 
 <script>
-
 import anime from "animejs";
+import PButton from "./PButton";
+import { theme } from "@/../tailwind.config";
+const colours = theme.extend.colors;
 
 export default {
   name: "SpaceSection",
+  components: { PButton },
+  data() {
+    return {
+      yellow: colours['rvrc-yellow']
+    }
+  },
   methods: {
     spaceWordVisible: function (isVisible) {
       if (isVisible) {
