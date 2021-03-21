@@ -13,9 +13,22 @@
         </div>
 
         <p class="text-lg cta-description">
-          RVRC is situated at whatever valley, allowing you to access to essential facilities, amenities, and your 
-          classes right within walking distance. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          The Ridge View Residential College Programme (RVRCP) is a two-year residency, and you will automatically be
+          eligible to begin your Year Two Programme upon completion of your Year One Programme. To commence your RVRC
+          experience, you need to submit an application through the Joint Residential College Application System, where
+          you need to highlight your specific interest in RVRC. Along with it, you will also need to demonstrate your
+          motivation aligned with the College's mission through a short essay, and attend an interview, should you are
+          shortlisted.<br><br>
+
+          The application period for Academic Year 2021/2022 is open from <b>8 March 2021, 0900hrs</b> to 
+          <b>13 April 2021, 1200hrs</b> (one minute after 12 April 2021, 2359hrs).<br><br>
+
+          For further admission inquiries, please drop an email to 
+          <a href="mailto:rvrc_admissons@nus.edu.sg" rel="noreferrer noopener" target="_blank">rvrc_admissons@nus.edu.sg</a>.
+
+          <br><br>You can click on the following button to visit the Joint Residential College Application System homepage.
+          Scroll down to <i>Useful links</i> for more (very useful) resources with regards to admissions. We hope to see you 
+          at the ridge!
         </p>
 
         <button>Apply now</button>
