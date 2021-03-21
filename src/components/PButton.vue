@@ -16,11 +16,6 @@
 <script>
 export default {
   name: "PButton",
-  data() {
-    return {
-      yellow: colours['rvrc-yellow']
-    }
-  },
   props: {
     href: String,
     icon: String,
