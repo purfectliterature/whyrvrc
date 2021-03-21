@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Maison Neue;
+        src: url("~@/assets/fonts/MaisonNeue-Book.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue;
+        font-weight: 500;
+        src: url("~@/assets/fonts/MaisonNeue-Medium.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue;
+        font-weight: 500;
+        font-style: italic;
+        src: url("~@/assets/fonts/MaisonNeue-MediumItalic.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue;
+        font-weight: 600;
+        src: url("~@/assets/fonts/MaisonNeue-Demi.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue;
+        font-weight: 700;
+        src: url("~@/assets/fonts/MaisonNeue-Bold.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue Extended;
+        font-weight: 700;
+        src: url("~@/assets/fonts/MaisonNeueExtended-Bold.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue Extended;
+        font-weight: 800;
+        src: url("~@/assets/fonts/MaisonNeueExtended-ExtraBold.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: Maison Neue Extended;
+        font-weight: 900;
+        src: url("~@/assets/fonts/MaisonNeueExtended-Black.otf") format("opentype");
+    }
+
+    h1 {
+        @apply text-5xl;
+    }
+
+    h2 {
+        @apply text-4xl font-bold;
+    }
+
+    h3 {
+        @apply text-2xl;
+    }
+}
