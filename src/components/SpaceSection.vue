@@ -19,9 +19,9 @@
         heritage trees, open grills, and culture gardens. It is really the college with the space to unleash your true potential.
       </p>
 
-      <button>
-        Show me around
-      </button>
+      <a href="https://www.youtube.com/watch?v=I5srlwPX0Qc" rel="noreferrer noopener" target="_blank">
+        <button>Show me around</button>
+      </a>
     </div>
   </section>
 </template>
