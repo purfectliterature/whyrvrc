@@ -79,7 +79,7 @@
         <p class="text-white text-sm">Copyright &#169; {{ new Date().getFullYear() }} Ridge View Residential College. All rights reserved.</p>
       </div>
       
-      <a href="https://phillmontisaweso.me">
+      <a href="https://phillmontisaweso.me" @click="report" rel="noreferrer noopener" target="_blank">
         <img src="@/assets/images/phillmont-seal-multilingual.svg" alt="Made with pure love by Phillmont" class="w-52 self-start">
       </a>
 
@@ -126,6 +126,11 @@ export default {
         new Contributor("Chong Cheng Yang, Lionel", "Creative, Content Management")
       ]
     };
+  },
+  methods: {
+    report() {
+      this.$gtag.event("refer_to_phillmont");
+    }
   }
 }
 </script>
