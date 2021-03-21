@@ -23,7 +23,7 @@
       -mt-8 sm:-mt-16 md:-mt-32 lg:-mt-64
     ">
 
-    <div class="px-5 pb-8 flex flex-row justify-center md:flex-col md:justify-start md:w-4/5 md:pr-0">
+    <div class="md:absolute md:bottom-0 px-5 py-8 flex flex-row justify-center md:flex-col md:justify-start md:w-4/5 md:pr-0">
       <unicon name="image-v" fill="#BDBDBD" width="1.5rem" height="1.5rem" />
       <p class="memory-description text-memory-light-gray font-medium text-sm leading-snug ml-3 md:ml-0 md:mt-1">
         RVRC residents having a late-night supper party on the RVRC Lawn, all exuberantly mingling while respecting safe management measures.
