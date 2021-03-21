@@ -4,6 +4,15 @@
       <img src="@/assets/images/rvrc-logo-secondary.svg" alt="RVRC Logo" class="w-56 pb-8 lg:self-center">
 
       <div class="flex flex-col space-y-8 lg:flex-row lg:space-y-0 lg:justify-between w-full">
+        <footer-section-item title="Useful links">
+          <a v-for="link in quickLinks" :key="link.href" :href="link.href" rel="noreferrer noopener" target="_blank" class="
+            text-white font-semibold text-lg flex flex-row items-center
+          ">
+            {{ link.text }}
+            <unicon v-if="link.isExternal" name="arrow-up-right" fill="#cecece" width="1.2rem" height="1.2rem" class="ml-1" />
+          </a>
+        </footer-section-item>
+
         <footer-section-item title="Stay connected">
           <div class="flex flex-row space-x-7">
             <icon-link name="facebook" size="2rem" fill="white" href="https://www.facebook.com/NUSRVRC/" />
@@ -12,15 +21,6 @@
             <icon-link name="reddit-alien-alt" size="2rem" fill="white" href="https://tinyurl.com/RV-Reddit-AMA" />
             <icon-link name="youtube" size="2rem" fill="white" href="https://youtube.com/channel/UC83rIIi0SgYLq-q0vCZpLig?sub_confirmation=1" />
           </div>
-        </footer-section-item>
-
-        <footer-section-item title="Useful links">
-          <a v-for="link in quickLinks" :key="link.href" :href="link.href" rel="noreferrer noopener" target="_blank" class="
-            text-white font-semibold text-lg flex flex-row items-center
-          ">
-            {{ link.text }}
-            <unicon v-if="link.isExternal" name="arrow-up-right" fill="#cecece" width="1.2rem" height="1.2rem" class="ml-1" />
-          </a>
         </footer-section-item>
 
         <footer-section-item title="Locate us">
