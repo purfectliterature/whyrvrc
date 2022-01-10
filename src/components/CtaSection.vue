@@ -12,7 +12,7 @@
           <p class="text-2xl pt-2">Because at RVRC, you have the potential to be.</p>
         </div>
 
-        <p class="text-lg cta-description">
+        <p class="text-lg cta-description" v-observe-visibility="reportScrolledToApply">
           The Ridge View Residential College Programme (RVRCP) is a two-year residency, and you will automatically be
           eligible to begin your Year Two Programme upon completion of your Year One Programme. To commence your RVRC
           experience, you need to submit an application through the Joint Residential College Application System, where
@@ -31,7 +31,7 @@
           at the ridge!
         </p>
         
-        <p-button href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" icon="arrow-right" :icon-color="yellow" childClasses="bg-rvrc-purple text-white">
+        <p-button @click.native="report" href="https://myaces.nus.edu.sg/prjrca/MasterServlet?actionParam=newstulogin" icon="arrow-right" :icon-color="yellow" childClasses="bg-rvrc-purple text-white">
           Apply now
         </p-button>
       </div>
@@ -53,7 +53,20 @@ export default {
   components: { PButton },
   data() {
     return {
-      yellow: colours['rvrc-yellow']
+      yellow: colours['rvrc-yellow'],
+      scrolledToApply: false
+    }
+  },
+  methods: {
+    reportApply() {
+      this.$gtag.event("apply");
+    },
+    reportScrolledToApply(isVisible) {
+      if (!this.scrolledToApply && isVisible) {
+        this.$gtag.event("scrolled_to_apply");
+        this.scrolledToApply = true;
+        console.log('imhere');
+      }
     }
   }
 }

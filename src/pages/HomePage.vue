@@ -35,6 +35,11 @@ export default {
     ThisYearSection,
     CtaSection,
     FooterSection
+  },
+  mounted() {
+    this.$nextTick(function () {
+      this.$gtag.pageview("/");
+    });
   }
 }
 </script>,
